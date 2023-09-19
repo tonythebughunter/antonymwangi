@@ -38,23 +38,51 @@
     </style>
 </head>
 <body>
+	nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Your Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.boots
     <div class="container">
         <div class="jumbotron">
-            <h1>Your Name</h1>
+            <h1>Anthony Mwangi</h1>
             <p>Security Researcher & Educator</p>
         </div>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8" id="about">
                 <h2>About Me</h2>
                 <p>I am Anthony, security reseacher and an educator from kenya. I also provide web design and developing services. You can reach me through my socials below..</p>
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center social-links">
-        <a href="https://www.facebook.com/toniekmwas" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.youtube.com/yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="https://twitter.com/254developer" target="_blank"><i class="fab fa-twitter"></i></a>
-	<a href="https://github.com/tonythebughunter" target="_blank"><i class="fab fa-github"></i></a>
+    <div class="container-fluid text-center social-links" id="contact">
+        <a href="https://www.facebook.com/toniekmwas"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/yourchannel"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/254developer"><i class="fab fa-twitter"></i></a>
+	<a href="https://github.com/tonythebughunter"><i class="fab fa-github"></i></a>
     </div>
 
     <!-- Bootstrap and Font Awesome CDN links -->
